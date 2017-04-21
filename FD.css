@@ -1,0 +1,150 @@
+body {
+  width:100%;
+  margin: 0;
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(184,184,184,1) 47%, rgba(255,255,255,1) 100%);
+}
+
+
+
+.navbar {
+  padding: 0px;
+  font-size: 12px;
+  letter-spacing: 8px;
+  display: inline;
+}
+.navbar a:hover {
+  color: #207ce5 !important;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li.icon {
+  display:none;
+}
+.row p a {
+  text-decoration:none;
+}
+.row p a:hover {
+  color: orange !important;
+}
+.navbar li a{ 
+	padding: 5px 15px;
+  letter-spacing: 8px;
+  text-decoration:none;
+}
+
+#Jumbotron {
+  height: auto;
+  background: url("http://i.imgur.com/h8TvXXp.jpg") no-repeat;
+  background-size: 100%;
+  color: white;
+  border-radius: 5px;
+  
+}
+#title {
+  margin-top: 100px;
+  padding: 100px;
+  padding-bottom:230px;
+  font-weight: 100;
+  font-size: 400%;  
+}
+
+#useremail, #userpassword{
+  padding: 5px;
+  margin-bottom: 10px;
+  opacity:.80;
+  border-radius: 5px;
+  width: 13%;
+  color: black;
+  font-size: 110%;
+  font-weight: 600;
+}
+#useremail:hover, #userpassword:hover {
+  background-color: skyblue;
+  
+}
+
+#myBtn {
+  font-weight: 100;
+  font-size: 130%;
+  padding: 10px 15px;
+  margin-bottom:80px;
+  word-spacing: -11px;
+}
+
+
+#article {
+ 
+  margin-top: 35px;
+  letter-spacing: 2px;
+}
+h4 {
+  font-size: 250%;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+h6 {
+  font-size: 135%;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+p{
+ font-size: 125%;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+#article ol {
+  font-size: 125%;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+img {
+  margin: 35px 5px;
+  padding: 5px;
+  box-shadow: 10px 20px 12px gray;
+  border-radius: 10px
+}
+
+footer{
+  margin: 50px 0;
+  
+}
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:first-child) {
+    display: show;
+  }
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  .jumbotron {
+    font-size: 80%;
+    
+  }
+  .title {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
